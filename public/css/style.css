@@ -1,0 +1,162 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+section#messages-section{
+    margin-left: 8px;
+    margin-bottom: 3px;
+    color: cornflowerblue;
+}
+
+div.user_status_style{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+div.user_status_style_name{
+    color: darkblue;
+    margin-bottom: 3px;
+}
+
+a.user_status_style_logout{
+    font-size: 30px;
+    color: cornflowerblue;
+}
+
+div.inner{
+    width:80%;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div.inner h1{
+    font-size: 42px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+div.inner h3{
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+div.inner form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+textarea{
+    margin-top: 10px;
+    border: 1.5px solid darkblue;
+    outline: none;
+    color: darkblue;
+    resize: none;
+
+}
+
+div.inner form input{
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none;
+    border: 1.5px solid darkblue;
+    color: darkblue;
+    padding-left: 5px;
+}
+
+div.inner form select{
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none;
+    border: 1.5px solid darkblue;
+    color: darkblue;
+    padding-left: 5px;
+}
+
+div.inner form input.button{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: cornflowerblue;
+}
+
+a{
+    font-size: 30px;
+    color: cornflowerblue;
+    margin-top: 5px;
+}
+
+div.menu_all{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+div.menu_all a.menu{
+    border: 1.5px solid darkblue;
+    max-width: 500px;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    color: darkblue;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size:16px;
+}
+
+
+
+table{
+    width: 80%;
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+
+}
+
+
+table thead th {
+    border: 2px solid darkblue;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color:darkblue;
+    font-weight: bold;
+
+}
+
+table tbody tr {
+    border: 2px solid darkblue;
+
+}
+
+table tbody tr td{
+    border: 2px solid darkblue;
+    color:darkblue;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 5px;
+    vertical-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
